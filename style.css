@@ -16,9 +16,18 @@
 .navbar-brand:hover {
     color: solid black;
 }
-.nav-link{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+/* .nav-link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+} */
+.kac{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  font-size: small;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  display: block;
+  padding: 25px;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -26,6 +35,7 @@
 .apply{
     text-align: center;
     color: #002147 !important;
+    margin-top: 10px !important;
     padding: 8px 0;
     width: 104px;
     background: #fdc800;
@@ -141,6 +151,7 @@
   .try {
     position: relative;
     top: -7.1rem;
+    opacity: 0.8;
   }
   .btn-primary {
     background-color: #5302FE;
@@ -302,6 +313,14 @@
     font-size: smaller;
     background-color: #002147;
     color: #fff;
+  }
+  .try-vav{
+    position: absolute;
+    bottom: 20px;
+    font-size: 40px;
+    /* text-align: right; */
+    right: 40px;
+    color: #FDC800;
   }
   .can{
     position: relative;
@@ -595,6 +614,19 @@ h2,h1 {
   font-size: 25px;
   text-decoration: #fff;
 }
+.cle{
+  position: relative;
+  bottom: 40px;
+  font-size: 60px;
+  right: 20px;
+}
+.clever{
+  position: relative;
+  top: 100px;
+  color: #fff
+}
+
+
 .xava{
     font-size: 30px;
 }
